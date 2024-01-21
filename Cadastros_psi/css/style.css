@@ -1,0 +1,54 @@
+:root{
+    --azul-claro-principal:#6990CB;
+    --botao-verde:#72C034;
+    --botao-vermelhor:#D80D0D;
+    --backgroud:#D9D9D9;
+    --branco: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: var(--backgroud);
+    font-family: 'Roboto', sans-serif;
+}
+.Principal{
+    background-color: var(--azul-claro-principal);
+    padding: 40px 0;
+}
+.barra__principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_tipo img{
+    width: 70px;
+}
+.barra_de_pesquisa input[type="search"] {
+    width: 269px;
+    border-radius: 12px;
+    background: var(--branco);
+    border: none;
+    padding: 10px;
+}
+.sobre{
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+.Mais_sobre{
+    background-color:var(--branco);
+    width: 110PX;
+    padding: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.Subclasses{
+    width: 100PX;
+    padding: 8px;
+    border: 1.5px solid var(--branco);
+    background-color: transparent;
+    border-radius: 7px;
+}
